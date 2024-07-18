@@ -1,0 +1,30 @@
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-item {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s;
+  text-transform: uppercase;
+}
+
+.menu-item:hover {
+  opacity: 1;
+  color: rgb(205, 52, 56);
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu-item {
+    font-size: small;
+  }
+}

@@ -1,0 +1,19 @@
+@import url("box/box.css");
+@import url("carousel/carousel.css");
+@import url("contato/contato.css");
+@import url("footer/footer.css");
+@import url("header/header.css");
+@import url("navbar/navbar.css");
+@import url("portifolio/portifolio.css");
+@import url("section/section.css");
+@import url("titulo/titulo.css");
+@import url("whatsapp/whatsapp-button.css");
+
+body {
+  background-color: rgb(231, 231, 231);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  box-sizing: border-box;
+  margin: 0;
+}

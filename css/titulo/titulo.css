@@ -1,0 +1,12 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    color: rgb(251, 251, 251);
+    background-color: rgb(205, 52, 56);
+    font-size: large;
+    text-transform: uppercase;
+    margin-top: 5vh;
+  }

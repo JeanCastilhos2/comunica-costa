@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("LSClearAllPublicChatEventStartAndEndTimes",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.resolve(c)}a.__sproc_name__="LSMailboxClearAllPublicChatEventStartAndEndTimesStoredProcedure";e.exports=a}),null);
+__d("LSDeleteAllPublicChatFbEventData",["LSClearAllPublicChatEventStartAndEndTimes"],(function(a,b,c,d,e,f){function a(){var a=arguments,c=a[a.length-1],d=[];return c.sequence([function(a){return c.storedProcedure(b("LSClearAllPublicChatEventStartAndEndTimes"))},function(a){return c.resolve(d)}])}a.__sproc_name__="LSOmnistoreSettingsDeleteAllPublicChatFbEventDataStoredProcedure";e.exports=a}),null);
+__d("LSTruncatePakeMessagesDatabase",[],(function(a,b,c,d,e,f){function a(){var a=arguments,b=a[a.length-1],c=[];return b.sequence([function(c){return a[0]?b.forEach(b.db.table(258).fetch(),function(a){return a["delete"]()}):b.forEach(b.db.table(258).fetch(),function(a){return a["delete"]()})},function(a){return b.resolve(c)}])}a.__sproc_name__="LSPakeMessagesTruncatePakeMessagesDatabaseStoredProcedure";e.exports=a}),null);
