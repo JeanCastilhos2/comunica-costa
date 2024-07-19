@@ -14,11 +14,12 @@ header {
 
 .section_header {
   width: 100vw;
-  height: 60vh;
+  height: 100vh;
   background-color: rgb(255, 255, 255);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url("https://www.futuraexpress.com.br/blog/wp-content/uploads/2020/09/Exemplo-Identidade-Visual-9.jpg");
 }
 
 .section_header img {

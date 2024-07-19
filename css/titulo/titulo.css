@@ -1,12 +1,39 @@
-.titulo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 10vh;
-    color: rgb(251, 251, 251);
-    background-color: rgb(205, 52, 56);
-    font-size: large;
-    text-transform: uppercase;
-    margin-top: 5vh;
-  }
+.titulo_wt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: uppercase;
+  margin-top: 5vh;
+  font-weight: bold;
+}
+
+.titulo_rd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 20vh;
+  background-color: rgb(205, 52, 56);
+  color: rgb(255, 255, 255);
+  font-size: large;
+  text-transform: uppercase;
+  margin-top: 5vh;
+  font-weight: bold;
+}
+
+.titulo_rdb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(182, 63, 63);
+  font-size: large;
+  text-transform: uppercase;
+  margin-top: 5vh;
+  font-weight: bold;
+}
