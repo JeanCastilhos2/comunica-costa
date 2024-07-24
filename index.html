@@ -15,224 +15,202 @@
 
 <body>
     <!-- Navbar/Header -->
-    <div class="container">
-        <header>
-            <nav>
-                <a href="#inicio" class="menu-item">Início</a>
-                <a href="#sobre" class="menu-item">Sobre</a>
-                <a href="#servicos" class="menu-item">Serviços</a>
-                <a href="#portifolio" class="menu-item">Portfólio</a>
-            </nav>
-        </header>
-        <div class="section_header" id="inicio">
-            <img class="" src="./assets/logo.jpg" alt="logo">
-        </div>
-        <!-- Sobre -->
-        <div id="sobre" class="titulo_wt">Sobre</div>
-        <section>
-            <div class="box">
-                <div class="box-image">
-                    <img src="./assets/logo2.jpg" alt="Imagem de apresentação">
-                </div>
-                <div class="box-text">
-                    <h2>Bem-vindo à Comunica Costa</h2>
-                    <p>Com mais de 30 anos de experiência, a Comunica Costa é referência em comunicação visual em
-                        Montenegro, RS. Nossa missão é transformar ideias em imagens impactantes, oferecendo soluções
-                        personalizadas que atendem às necessidades de cada cliente. Venha conhecer nossos serviços e
-                        descubra como podemos ajudar a elevar a imagem da sua empresa.</p>
-                </div>
+    <header>
+        <nav>
+            <a href="#inicio" class="menu-item">Início</a>
+            <a href="#sobre" class="menu-item">Sobre</a>
+            <a href="#servicos" class="menu-item">Serviços</a>
+            <a href="#portifolio" class="menu-item">Portfólio</a>
+        </nav>
+    </header>
+    <div class="section_header" id="inicio">
+        <img class="" src="./assets/head site.png" alt="logo">
+    </div>
+    <!-- Sobre -->
+    <section class="section_sobre" id="sobre">
+        <div class="box">
+            <div class="box-image">
+                <img src="./assets/logo2.jpg" alt="Imagem de apresentação">
             </div>
-        </section>
-        <!-- Serviços -->
-        <div id="servicos" class="titulo_rd">Serviços</div>
-        <div class="section_carousel">
-            <div class="carousel-container">
-                <div class="carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/servicos/placas.jpg" alt="placas">
-                            <div class="overlay">
-                                <div class="text">Placas</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/servicos/fachadas.jpg" alt="fachadas">
-                            <div class="overlay">
-                                <div class="text">Fachadas</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/servicos/tottens.jpg" alt="tottens">
-                            <div class="overlay">
-                                <div class="text">Tottens</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/servicos/p.dupla.jpg" alt="p.dupla">
-                            <div class="overlay">
-                                <div class="text">Painéis dupla face</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/servicos/outdoors.jpg" alt="outdoors">
-                            <div class="overlay">
-                                <div class="text">Outdoors</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="box-text">
+                <h2>Bem-vindo à Comunica Costa</h2>
+                <p>Com mais de 30 anos de experiência, a Comunica Costa é referência em comunicação visual em
+                    Montenegro, RS. Nossa missão é transformar ideias em imagens impactantes, oferecendo soluções
+                    personalizadas que atendem às necessidades de cada cliente. Venha conhecer nossos serviços e
+                    descubra como podemos ajudar a elevar a imagem da sua empresa.</p>
             </div>
         </div>
-        <!-- Portifolio -->
-        <div id="portifolio" class="titulo_wt">Portifolio</div>
-        <section class="section_portifolio">
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
+    </section>
+    <!-- Serviços -->
+    <section class="carousel-container">
+        <h2>Nossos Serviços</h2>
+        <div class="carousel-wrapper">
+            <button class="carousel-button prev" onclick="prevSlide()">◀</button>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="assets/servicos/outdoors.jpg" alt="Painéis">
+                    <p>Painéis</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/servicos/outdoors.jpg" alt="PDVs">
+                    <p>PDVs</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/servicos/outdoors.jpg" alt="Fachadas">
+                    <p>Fachadas</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/servicos/outdoors.jpg" alt="Envelopamento Premium">
+                    <p>Envelopamento Premium</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/servicos/outdoors.jpg" alt="Outro Serviço">
+                    <p>Outro Serviço</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/servicos/outdoors.jpg" alt="Mais Um Serviço">
+                    <p>Mais Um Serviço</p>
                 </div>
             </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-            <div class="box_portifolio">
-                <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
-                <div class="overlay">
-                    <div class="text">Descrição da imagem</div>
-                </div>
-            </div>
-        </section>
-        <!-- Clientes -->
-        <div id="clientes" class="titulo_rd">Quem Já Passou por aqui</div>
-        <div class="section_carousel">
-            <div class="carousel-container">
-                <div class="carousel">
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/clientes/kipao.jpg" alt="Kipão">
-                            <div class="overlay">
-                                <div class="text">Padaria Kipão</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/clientes/nacaoverde.jpg" alt="Nação Verde">
-                            <div class="overlay">
-                                <div class="text">Nação Verde</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/clientes/fnp.png" alt="FNP">
-                            <div class="overlay">
-                                <div class="text">FNP</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/clientes/smart.png" alt="Smart">
-                            <div class="overlay">
-                                <div class="text">Smart Imobiliaria</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-item-content">
-                            <img src="./assets/clientes/mustache.jpg" alt="Mustache">
-                            <div class="overlay">
-                                <div class="text">Mustache</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <button class="carousel-button next" onclick="nextSlide()">▶</button>
+        </div>
+        <button class="contact-button">Solicitar Orçamento</button>
+    </section>
+    <!-- Portifolio -->
+    <div id="portifolio" class="titulo_wt">Portifolio</div>
+    <section class="section_portifolio">
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
             </div>
         </div>
-        <!-- Contanto -->
-        <div class="titulo_rdb" id="contato">Contato</div>
-        <div class="section_contato">
-            <div class="box_contato">
-                <form id="contact-form" method="POST" action="https://formspree.io/f/{your_form_id}">
-                    <h1>Deixe sua Mensagem!</h1>
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" required><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br><br>
-                    <label for="telefone">Telefone:</label>
-                    <input type="text" id="telefone" name="telefone" required><br><br>
-                    <label for="message">Mensagem:</label><br>
-                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
-                    <input type="submit" value="Enviar">
-                    <div id="response"></div>
-                </form>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
             </div>
         </div>
-        <!-- Whatssapp -->
-        <a href="https://api.whatsapp.com/send?phone=5551980389355&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Comunica%20Costa."
-            class="whatsapp-button" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="Contato WhatsApp">
-        </a>
-        <!-- Footer -->
-        <footer>
-            <div class="footer-content">
-                <h2>Comunica Costa</h2>
-                <p>Endereço: Rua Exemplo, 123, Centro, Montenegro - RS</p>
-                <p>Telefone: (51) 1234-5678</p>
-                <p>Email: contato@comunicacosta.com.br</p>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
             </div>
-            <div class="footer-icons">
-                <a href="https://api.whatsapp.com/send?phone=5531999999999&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Comunica%20Costa."
-                    target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
-                </a>
-                <a href="https://www.instagram.com/seuusuario" target="_blank">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
-                </a>
+        </div>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
             </div>
-        </footer>
+        </div>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
+            </div>
+        </div>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
+            </div>
+        </div>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
+            </div>
+        </div>
+        <div class="box_portifolio">
+            <img src="./assets/Portifolio/exemplo.png" alt="Descrição da imagem">
+            <div class="overlay">
+                <div class="text">Descrição da imagem</div>
+            </div>
+        </div>
+    </section>
+    <!-- Clientes -->
+    <section class="carousel-container">
+        <h2>Quem Já Passou Por Aqui ?</h2>
+        <div class="carousel-wrapper">
+            <button class="carousel-button prev" onclick="prevSlide()">◀</button>
+            <div class="carousel">
+                <div class="carousel-item">
+                    <img src="assets/clientes/fnp.png" alt="fnp">
+                    <p>FNP</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/clientes/kipao.jpg" alt="kipao">
+                    <p>Kipão</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/clientes/mustache.jpg" alt="Mustache">
+                    <p>Mustache</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/clientes/nacaoverde.jpg" alt="nverde">
+                    <p>Nação Verde</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/clientes/smart.png" alt="smart">
+                    <p>Smart Imobiliaria</p>
+                </div>
+            </div>
+            <button class="carousel-button next" onclick="nextSlide()">▶</button>
+        </div>
+    </section>
+    <!--  Vamos conversar -->
+    <section class="contact-section">
+        <div class="overlay">
+            <div class="content">
+                <h1>Vamos conversar sobre o seu projeto?</h1>
+                <p>Fale agora com um de nossos consultores para transformar sua ideia em realidade.</p>
+                <a href="https://api.whatsapp.com/send?phone=5551980389355&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Comunica%20Costa."
+                    class="cta-button">Clique no ícone de Whatsapp para nos enviar seu
+                    orçamento</a>
+            </div>
+        </div>
+    </section>
+    <!-- Contanto -->
+    <div class="section_contato" id="contato">
+        <div class="box_contato">
+            <form id="contact-form" method="POST" action="https://formspree.io/f/{your_form_id}">
+                <h1>Deixe sua Mensagem!</h1>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" required><br><br>
+                <label for="message">Mensagem:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+                <div id="response"></div>
+            </form>
+        </div>
+    </div>
+    <!-- Whatssapp -->
+    <a href="https://api.whatsapp.com/send?phone=5551980389355&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Comunica%20Costa."
+        class="whatsapp-button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="Contato WhatsApp">
+    </a>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <h2>Comunica Costa</h2>
+            <p>Endereço: Rua Exemplo, 123, Centro, Montenegro - RS</p>
+            <p>Telefone: (51) 1234-5678</p>
+            <p>Email: contato@comunicacosta.com.br</p>
+        </div>
+        <div class="footer-icons">
+            <a href="https://api.whatsapp.com/send?phone=5531999999999&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20os%20serviços%20da%20Comunica%20Costa."
+                target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/WhatsApp_icon.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.instagram.com/seuusuario" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
     </div>
     <script src="./js/scripts.js"></script>
 </body>
