@@ -42,16 +42,26 @@
   font-weight: bold;
 }
 
-.menu-icon {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  cursor: pointer;
+@media (max-width: 600px) {
+  .content h1 {
+    font-size: 2em;
+    margin-bottom: 10vh;
+  }
+  
+  .content p {
+    font-size: 1em;
+    margin-bottom: 8vh;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #e91e63;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.7em;
+  }
 }
 
 
